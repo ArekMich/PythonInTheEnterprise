@@ -1,30 +1,32 @@
-INFO:root:Inicjalizacja zmiennych sluzacych do zliczania
-DEBUG:root:DEBUG: Zliczylo zmienne
-WARNING:root:Wyswietlono zmienne
-ERROR:root:ERROR: mamy peoblem
-WARNING:root:Ostrzezenie
-INFO:root:Inicjalizacja zmiennych sluzacych do zliczania
-DEBUG:root:DEBUG: Zliczylo zmienne
-WARNING:root:Wyswietlono zmienne
-ERROR:root:ERROR: mamy peoblem
-WARNING:root:Ostrzezenie
-INFO:root:Inicjalizacja zmiennych sluzacych do zliczania
-DEBUG:root:DEBUG: Zliczylo zmienne
-WARNING:root:Wyswietlono zmienne
-ERROR:root:ERROR: mamy peoblem
-WARNING:root:Ostrzezenie
-INFO:root:Inicjalizacja zmiennych sluzacych do zliczania
-DEBUG:root:DEBUG: Zliczylo zmienne
-WARNING:root:Wyswietlono zmienne
-ERROR:root:ERROR: mamy peoblem
-WARNING:root:Ostrzezenie
-INFO:root:Inicjalizacja zmiennych sluzacych do zliczania
-DEBUG:root:DEBUG: Zliczylo zmienne
-WARNING:root:Wyswietlono zmienne
-ERROR:root:ERROR: mamy peoblem
-WARNING:root:Ostrzezenie
-INFO:root:Inicjalizacja zmiennych sluzacych do zliczania
-DEBUG:root:DEBUG: Zliczylo zmienne
-WARNING:root:Wyswietlono zmienne
-ERROR:root:ERROR: mamy peoblem
-WARNING:root:Ostrzezenie
+INFO:wc_app:INITIALIZATION
+INFO:wc_app:OPEN FILE
+INFO:wc_app:OPEN FILE
+INFO:wc_app:OPEN FILE
+INFO:wc_app:OPEN FILE
+INFO:wc_app:OPEN FILE
+INFO:wc_app:OPEN FILE
+INFO:wc_app:OPEN FILE
+INFO:wc_app:OPEN FILE
+INFO:wc_app:OPEN FILE
+INFO:wc_app:OPEN FILE
+INFO:wc_app:OPEN FILE
+INFO:wc_app:OPEN FILE
+INFO:wc_app:OPEN FILE
+INFO:wc_app:OPEN FILE
+INFO:wc_app:OPEN FILE
+INFO:wc_app:OPEN FILE
+INFO:wc_app:OPEN FILE
+INFO:wc_app:OPEN FILE
+INFO:wc_app:OPEN FILE
+INFO:wc_app:OPEN FILE
+INFO:wc_app:OPEN FILE
+INFO:wc_app:OPEN FILE
+INFO:wc_app:OPEN FILE
+INFO:wc_app:INFO: ...  module_logger
+DEBUG:wc_app:DEBUG: ... module_logger
+ERROR:wc_app:ERROR: ... module_logger
+WARNING:wc_app:WARNING: ... module_logger
+INFO:root:INFO: ...  logging
+DEBUG:root:DEBUG: ... logging
+ERROR:root:ERROR: ... logging
+WARNING:root:WARNING: ... logging

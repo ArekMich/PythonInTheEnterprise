@@ -10,7 +10,7 @@ class InputFileValidator:
         if os.path.isfile(my_File):
             True
         else:
-            raise NotSuchFile
+            raise NotSuchFile("No Such File")
 
 
 
@@ -20,14 +20,15 @@ class LogParser:
         self.val=InputFileValidator()
 
 
-    def main(self,str_name,str_search):
+    def searchString(self,nameFile,str_search):
 
-        self.val.validator(str_name)
+        self.val.validator(nameFile)
 
-        file = open(str_name, 'r')
+        file = open(nameFile, 'r')
         lines = file.readlines()
         file.close()
 
+        fileResult = open("Wyniki.txt", 'a')
 
         countYES=0
         num=0
@@ -40,10 +41,17 @@ class LogParser:
                 list.append(num)
 
 
-        print ("Przeszukiwany plik: {} ".format(str_name) )
+        print ("Przeszukiwany plik: {} ".format(nameFile) )
         print ("Po zliczeniu: {} ".format(countYES))
-        print ("Ilosc lini: {}".format(list))
+        print ("Tab[numer_linii]: {}".format(list))
         print "__________________________________________________________________"
+
+        fileResult.write("Przeszukiwany plik: {} \n".format(nameFile))
+        fileResult.write("Po zliczeniu: {} \n".format(countYES))
+        fileResult.write("Tab[numer_linii]: {} \n".format(list))
+        fileResult.write("__________________________________________________________________ \n")
+
+        fileResult.close()
 
 
 #__________________MAIN______________________
@@ -57,14 +65,11 @@ name.append('DR_NE_BdJPsiKs_MagD.log')
 name.append('DR_NE_BdJPsiKs_MagD_1k.log')
 
 search_str = 'PrChecker.Downs'
-ile=name.__len__()
 
-
-
-parser.main(name[0],search_str)
-parser.main(name[1],search_str)
-parser.main(name[2],search_str)
-parser.main(name[3],search_str)
+parser.searchString(name[0],search_str)
+parser.searchString(name[1],search_str)
+parser.searchString(name[2],search_str)
+parser.searchString(name[3],search_str)
 
 
 
