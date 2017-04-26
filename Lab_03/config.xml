@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<config>
+    <player>X</player> <!-- Choose which kind of player you want to be: X or O -->
+    <!--<computer>Y</computer> &lt;!&ndash; Choose if you want to play with computer by 'Y', or with other player by 'N'&ndash;&gt;-->
+</config>
+
